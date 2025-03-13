@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d-flex {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>Zoo Keeper Application</b></h1>
+    <div>
+        <i>
+            Please complete the form. Mandatory fields are marked with a *
+        </i>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <div>
+                Name *
+                <input type="text" name="username" maxlength="15" placeholder="Name">
+            </div>
+            <div>
+                Telephone *
+                <input type="number" name="number" maxlength="7" placeholder="Telephone">
+            </div>
+            <div>
+                Email *
+                <input type="text" name="Email" maxlength="20" placeholder="Email">
+            </div>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+                * Age
+                <input type="number" name="age" maxlength="2" placeholder="Age">
+            </div>
+            <div>
+                <form action="">Gender
+                    <select name="devices" id="">
+                        <option value="">Female</option>
+                        <option value="">Male</option>
+                    </select>
+                </form>
+            </div>
+            <div class="d-flex">
+                <div>
+                    When did you <br> first know you <br> wanted to be a <br> zoo-keeper?
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Pick Your Favorite Animals</legend>
+            <form action="">
+                <input type="checkbox" name="service"
+                value="Zebra"> Zebra
+
+            <input type="checkbox" name="service"
+            value="Cat"> Cat        
+
+            <input type="checkbox" name="service"
+            value="Anaconda"> Anaconda
+
+            <input type="checkbox" name="service"
+            value="Human"> Human
+            <div>
+                <input type="checkbox" name="service"
+                value="Elephant"> Elephant 
+
+                <input type="checkbox" name="service"
+                value="Wildebeest"> Wildebeest
+                
+                <input type="checkbox" name="service"
+                value="Pigeon"> Pigeon
+
+                <input type="checkbox" name="service"
+                value="Crab"> Crab
+            </div>
+            </form>
+        </fieldset>
+        <button type="Submit">Submit</button>
+    </div>
+</body>
+
+</html>
